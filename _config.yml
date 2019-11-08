@@ -13,22 +13,42 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Your awesome title
+title: Yusuf Duyar
 email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username: jekyll
+twitter_username: yusuffduyar
+github_username: yusufduyar
 remote_theme: "mmistakes/so-simple-theme@3.2.0"
+skin: "/assets/css/skins/light.css"
 
 # Build settings
 markdown: kramdown
 plugins:
   - jekyll-feed
+locale: "tr-TR"
+date_format: "%d-%m-%Y"
+lang: "tr"
+logo: "/images/logo.jpg"
+# Taxonomy pages
+category_archive_path: "/categories/#"
+tag_archive_path: "/tags/#"
+
+# Footer Links
+footer_links:
+  - title: Twitter
+    url: https://twitter.com/yusuffduyar
+    icon: fab fa-twitter-square
+  - title: Instagram
+    url: https://instagram.com/yusuffduyar
+    icon: fab fa-instagram
+  - title: GitHub
+    url: https://github.com/yusufduyar
+    icon: fab fa-github-square
+  - title: Feed
+    url: atom.xml
+    icon: fas fa-rss-square
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
@@ -40,3 +60,4 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+

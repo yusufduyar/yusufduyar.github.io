@@ -1,0 +1,10 @@
+- title: Anasayfa
+  url: /
+- title: Yazılar
+  url: /posts/
+- title: Kategoriler
+  url: /categories/
+- title: Etiketler
+  url: /tags/
+- title: Hakkımda
+  url: /about/
